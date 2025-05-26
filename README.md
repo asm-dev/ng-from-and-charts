@@ -1,4 +1,4 @@
-# Angular Material + NGX Charts Demo
+# Demo formulario y gráficos
 
 Este proyecto es una demostración práctica creada con Angular 19, que combina el uso de **Angular Material** para la interfaz de usuario y **NGX Charts** para la visualización de datos. Está diseñado como una actividad de integración de componentes modernos y visuales en una aplicación Angular desde cero.
 
