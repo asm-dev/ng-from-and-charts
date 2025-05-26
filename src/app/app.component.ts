@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
+import { ChartsComponent } from './charts/charts.component';
+import { DialogComponent } from './dialog/dialog.component';
 
 @Component({
   selector: 'app-root',
-  imports: [],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss'],
+  standalone: true,
+  imports: [ChartsComponent, DialogComponent],
 })
 export class AppComponent {
-  title = 'ng-charts-app';
+  title = 'charts-app';
 }

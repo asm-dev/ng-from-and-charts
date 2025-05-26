@@ -1,0 +1,10 @@
+<button mat-raised-button color="primary" (click)="openFormDialog()">
+  Abrir Formulario
+</button>
+
+<div *ngIf="submittedData" class="data-display">
+  <h3>Información enviada:</h3>
+  <p><strong>Nombre:</strong> {{ submittedData.name }}</p>
+  <p><strong>Email:</strong> {{ submittedData.email }}</p>
+  <p><strong>Dirección:</strong> {{ submittedData.address }}</p>
+</div>

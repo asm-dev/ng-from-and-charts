@@ -1,0 +1,30 @@
+<div class="charts-wrapper">
+  <div class="chart">
+    <h2>Gráfico de Líneas</h2>
+    <ngx-charts-line-chart
+      [view]="[width, 300]"
+      [scheme]="'vivid'"
+      [results]="lineChartData"
+      [xAxis]="true"
+      [yAxis]="true"
+      [legend]="true"
+      [autoScale]="true"
+    >
+    </ngx-charts-line-chart>
+  </div>
+
+  <div class="chart">
+    <h2>Gráfico de Barras</h2>
+    <ngx-charts-bar-vertical
+      [view]="[width, 300]"
+      [scheme]="'cool'"
+      [results]="barChartData"
+      [xAxis]="true"
+      [yAxis]="true"
+      [legend]="true"
+      [showDataLabel]="true"
+      [roundEdges]="true"
+    >
+    </ngx-charts-bar-vertical>
+  </div>
+</div>
